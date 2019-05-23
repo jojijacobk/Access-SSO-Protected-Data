@@ -1,6 +1,5 @@
 {
   "name": "jojijacobk/access-sso-protected-data",
-  "version": "1.0.0",
   "description": "Read/Write data on single-sign-on protected pages with a single line of script.",
   "keywords": [
     "single",
