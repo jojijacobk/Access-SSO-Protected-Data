@@ -9,35 +9,35 @@ If you are ever on a rush for an automated script to perform read/write operatio
 Visit [packagist](https://packagist.org/packages/jojijacobk/access-sso-protected-data) for details. 
 
 1. Install the package via composer 
-```composer require jojijacobk/access_sso_protected_data```
+   ```composer require jojijacobk/access_sso_protected_data```
 
 2. Make _config.ini_ file in the root directory (where _composer.json_ file resides). You can make the _config.ini_ file either by copying it from `vendor/jojijacobk/access_sso_protected_data/config.ini`, or by the copying the _config.ini_ sample as described below.
 
-` config.ini `
+   ` config.ini `
 
-````
-; single sign-on credentials
-[single_sign_on]
-username = hello@company.com
-password = xxxxx
-````
+   ````
+   ; single sign-on credentials
+   [single_sign_on]
+   username = hello@company.com
+   password = xxxxx
+   ````
 
 3. Make a PHP file in the root directory (where _composer.json & _config.ini_ resides), let's call it `demo.php` and write the following script to read data from single-sign-on protected page: 
 
-` demo.php `
+   ` demo.php `
 
-````PHP
-<?php
- 
-require 'vendor/autoload.php';
+   ````PHP
+   <?php
 
-$requestUrl_1 = "https://jira.your-company.com/jira/rest/api/2/search?jql=xxx";
-$requestUrl_2 = "https://confluence.your-company.com/confluence/rest/api/content/yyy";
- 
-echo \jojijacobk\access_sso_protected_data\DataStreamer::read($requestUrl_1);
-echo \jojijacobk\access_sso_protected_data\DataStreamer::read($requestUrl_2);
-  
-````
+   require 'vendor/autoload.php';
+
+   $requestUrl_1 = "https://jira.your-company.com/jira/rest/api/2/search?jql=xxx";
+   $requestUrl_2 = "https://confluence.your-company.com/confluence/rest/api/content/yyy";
+
+   echo \jojijacobk\access_sso_protected_data\DataStreamer::read($requestUrl_1);
+   echo \jojijacobk\access_sso_protected_data\DataStreamer::read($requestUrl_2);
+
+   ````
 
 ### Support or Contact
 
