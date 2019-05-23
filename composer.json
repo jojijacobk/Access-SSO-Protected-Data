@@ -1,0 +1,38 @@
+{
+  "name": "jojijacobk/access-sso-protected-data",
+  "description": "Read/Write data on single-sign-on protected pages with a single line of script.",
+  "keywords": [
+    "single",
+    "sign",
+    "saml",
+    "sso",
+    "login",
+    "authenticate",
+    "protected",
+    "singel-sign-on",
+    "bypass",
+    "access",
+    "data",
+    "automated"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joji Jacob",
+      "email": "joji.jacob.k@gmail.com",
+      "homepage": "https://github.com/jojijacobk",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "joji.jacob.k@gmail.com"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "jojijacobk\\access_sso_protected_data\\": "src/"
+    }
+  }
+}
