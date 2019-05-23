@@ -7,9 +7,10 @@ If you are ever on a rush for an automated script to perform read/write operatio
  
 
 ### How to use ?
-* Make _config.ini_ file in the root directory (where _composer.json_ file resides). You can make the _config.ini_ file either by copying it from `vendor/jojijacobk/access_sso_protected_data/config.ini`, or by the copying the _config.ini_ sample as described below.
 
-> *config.ini file*
+1. Make _config.ini_ file in the root directory (where _composer.json_ file resides). You can make the _config.ini_ file either by copying it from `vendor/jojijacobk/access_sso_protected_data/config.ini`, or by the copying the _config.ini_ sample as described below.
+
+> config.ini
 
 ````
 ; single sign-on credentials
@@ -17,11 +18,21 @@ If you are ever on a rush for an automated script to perform read/write operatio
 username = hello@company.com
 password = xxxxx
 ````
-2. Read/Write data on single-sign-on protected pages with a single line of script : `DataStreamer::read($requestUrl)`
 
-> *demo.php*
+2. Make a PHP file in the root directory (where _composer.json & _config.ini_ resides), and write the following script to read data from single-sign-on protected page: 
 
-````
+`echo \jojijacobk\access_sso_protected_data\DataStreamer::read($requestUrl);`
+
+
+### How to use via composer
+Visit [packagist](https://packagist.org/packages/jojijacobk/access-sso-protected-data) for details. 
+
+1. ````composer require jojijacobk/access_sso_protected_data````
+
+2. Make a PHP file in the root directory (where _composer.json & _config.ini_ resides), and write the following script to read data from single-sign-on protected page: 
+
+> demo.php
+````PHP
   1 <?php
   2 
   3 require 'vendor/autoload.php';
@@ -34,10 +45,6 @@ password = xxxxx
   
 ````
 
-### Install by using composer
-Visit [packagist](https://packagist.org/packages/jojijacobk/access-sso-protected-data) for details. 
-
-````composer require jojijacobk/access_sso_protected_data````
 
 ### Support or Contact
 
