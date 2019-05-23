@@ -35,14 +35,12 @@ password = xxxxx
 ````
 
 ### Install by using composer
-Visit [packagist](https://packagist.org/packages/jojijacobk/access_sso_protected_data) for details. 
+Visit [packagist](https://packagist.org/packages/jojijacobk/access-sso-protected-data) for details. 
 
-1. Run composer 
 ````composer require jojijacobk/access_sso_protected_data````
-2. Make _config.ini_ file in the root directory (where _composer.json_ file resides). You can make the _config.ini_ file either by copying it from `vendor/jojijacobk/access_sso_protected_data/config.ini`, or by the copying the _config.ini_ sample described in this document.
 
 ### Support or Contact
 
-Github pull requests: *https://github.com/jojijacobk/access_sso_protected_data*
+Github pull requests: *https://github.com/jojijacobk/Access-SSO-Protected-Data*
  
 Contact me: <joji.jacob.k@gmail.com>
