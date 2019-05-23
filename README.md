@@ -7,7 +7,7 @@ If you are ever on a rush for an automated script to perform read/write operatio
  
 
 ### How to use ?
-* Configure a working single-sign-on username and password in the _config.ini_ file. 
+* Make _config.ini_ file in the root directory (where _composer.json_ file resides). You can make the _config.ini_ file either by copying it from `vendor/jojijacobk/access_sso_protected_data/config.ini`, or by the copying the _config.ini_ sample as described below.
 
 > *config.ini file*
 
