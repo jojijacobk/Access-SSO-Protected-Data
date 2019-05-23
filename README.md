@@ -9,9 +9,9 @@ If you are ever on a rush for an automated script to perform read/write operatio
 Visit [packagist](https://packagist.org/packages/jojijacobk/access-sso-protected-data) for details. 
 
 1. Install the package via composer 
-   ```composer require jojijacobk/access_sso_protected_data```
+   ```composer require jojijacobk/access-sso-protected-data```
 
-2. Make _config.ini_ file in the root directory (where _composer.json_ file resides). You can make the _config.ini_ file either by copying it from `vendor/jojijacobk/access_sso_protected_data/config.ini`, or by the copying the _config.ini_ sample as described below.
+2. Make _config.ini_ file in the root directory (where _composer.json_ file resides). You can make the _config.ini_ file either by copying it from `vendor/jojijacobk/access-sso-protected-data/config.ini`, or by the copying the _config.ini_ sample as described below.
 
    ` config.ini `
 
